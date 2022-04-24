@@ -1,6 +1,6 @@
 import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react";
 import { Definition } from "../types/response";
-import { transformFunction } from "../util/TransformFunction";
+import { transformFunction } from "../util/transformFunction";
 
 export const dictionaryApi = createApi({
   reducerPath: "dictionaryApi",

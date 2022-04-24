@@ -1,12 +1,4 @@
-import {
-  TextField,
-  Card,
-  CardContent,
-  Typography,
-  CircularProgress,
-  Stack,
-  AppBar,
-} from "@mui/material";
+import { TextField } from "@mui/material";
 import { Box } from "@mui/system";
 import { useState } from "react";
 import "./App.css";
@@ -15,7 +7,7 @@ import { Definitions } from "./components/Definitions";
 function App() {
   const [word, setWord] = useState("");
 
-  const getWord = (e) => {
+  const getWord = (e: any) => {
     setWord(e.target.value);
   };
 
